@@ -1,0 +1,34 @@
+
+.headerDiv {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .headerDiv ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+  }
+  
+  .headerDiv ul li {
+    display: inline-block;
+  }
+  
+  .headerDiv ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .headerDiv ul li a:hover {
+    background-color: #ddd;
+    color: #000;
+    border-radius: 5px;
+  }
+  
